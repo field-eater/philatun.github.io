@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Text);
+
+
+.avatar-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.name {
+    font-size: 45px;
+    margin: 10px;
+}
+
+.description {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 166px;
+    height: 166px;
+    background: #6C2578;
+    border-radius: 50%;
+}
+
+.avatar-initial {
+    position: absolute;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Red Hat Text';
+    color:white;
+}
+
+.social-list {
+
+    display: inline;
+    list-style-type: none;
+    align-items: center;
+    /* padding-inline-start: 40px;
+    padding-inline-end:  40px; */
+}
+
+
+
+ul {
+    padding-inline-start: 0;
+}
+
+.social-item {
+    display: inline;
+    margin: 0;
+    padding: 9px;
+   
+}
+
+.social-link{
+    display: inline;
+    height: auto; 
+    width: auto; 
+    max-width: 45px;
+    max-height: 45px;
+    border-radius: 10px;
+    
+
+}
+
+.link-item {
+    height: auto; 
+    width: auto; 
+    max-width: 45px;
+    max-height: 45px;
+    border-radius: 10px;
+
+}
