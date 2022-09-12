@@ -19,10 +19,7 @@ export const MainPage = () => {
       <div className="container">
         <ul className="social-list">
           <li className="social-item">
-            <a
-              className="social-link"
-              href="https://www.facebook.com/philemonzs"
-            >
+            <a className="social-link" href="#" target="_blank">
               <img
                 className="link-item"
                 src={require("./assets/img/facebook.png")}
@@ -31,7 +28,7 @@ export const MainPage = () => {
             </a>
           </li>
           <li className="social-item">
-            <a className="social-link" href="https://github.com/field-eater">
+            <a className="social-link" href="#" target="_blank">
               <img
                 className="link-item"
                 src={require("./assets/img/github.png")}
@@ -40,7 +37,7 @@ export const MainPage = () => {
             </a>
           </li>
           <li className="social-item">
-            <a className="social-link" href="https://twitter.com/phil2N">
+            <a className="social-link" href="#" target="_blank">
               <img
                 className="link-item"
                 src={require("./assets/img/twitter.png")}
