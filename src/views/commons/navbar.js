@@ -3,20 +3,20 @@ import "./navbar.css";
 export const Navbar = () => {
   return (
     <nav className="navbar">
-      <a href="#" className="navbar-brand">
+      <button href="#" className="navbar-brand">
         MYBRAND
-      </a>
+      </button>
 
       <ul className="navbar-list">
         <li className="navbar-item">
-          <a className="navbar-link" href="#">
+          <button className="navbar-link" href="#">
             About me
-          </a>
+          </button>
         </li>
         <li className="navbar-item">
-          <a className="navbar-link" href="#">
+          <button className="navbar-link" href="#">
             Site
-          </a>
+          </button>
         </li>
       </ul>
     </nav>

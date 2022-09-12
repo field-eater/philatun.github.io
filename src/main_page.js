@@ -19,31 +19,31 @@ export const MainPage = () => {
       <div className="container">
         <ul className="social-list">
           <li className="social-item">
-            <a className="social-link" href="#" target="_blank">
+            <button className="social-link" href="#" target="_blank">
               <img
                 className="link-item"
                 src={require("./assets/img/facebook.png")}
                 alt="Facebook"
               />
-            </a>
+            </button>
           </li>
           <li className="social-item">
-            <a className="social-link" href="#" target="_blank">
+            <button className="social-link" href="#" target="_blank">
               <img
                 className="link-item"
                 src={require("./assets/img/github.png")}
                 alt="Github"
               />
-            </a>
+            </button>
           </li>
           <li className="social-item">
-            <a className="social-link" href="#" target="_blank">
+            <button className="social-link" href="#" target="_blank">
               <img
                 className="link-item"
                 src={require("./assets/img/twitter.png")}
                 alt="Twitter"
               />
-            </a>
+            </button>
           </li>
         </ul>
       </div>
