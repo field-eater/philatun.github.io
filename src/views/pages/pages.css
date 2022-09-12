@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+
+.about {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.subtext {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.i-purple {
+    color: #6C2578;
+    
+    font-style: italic;
+}
+
+.paragraph {
+font-family: "Crimson Text";
+font-size: 22px;
+font-weight: 400;
+}

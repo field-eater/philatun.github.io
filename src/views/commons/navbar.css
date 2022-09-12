@@ -43,3 +43,7 @@
 .navbar-link:active {
     color: #6C2578;
 }
+
+.navbar-link:hover {
+    color: #6C2578;
+}

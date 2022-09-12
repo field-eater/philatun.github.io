@@ -1,24 +1,46 @@
+import { Routes, Route, Link, NavLink } from "react-router-dom";
+import { MainPage } from "../../main_page";
+import { About } from "../pages/about";
+import { Site } from "../pages/site";
 import "./navbar.css";
 
-export const Navbar = () => {
+function Navbar() {
   return (
-    <nav className="navbar">
-      <button href="#" className="navbar-brand">
-        MYBRAND
-      </button>
+    <>
+      <nav className="navbar">
+        <Link className="navbar-brand" to="/">
+          MYBRAND
+        </Link>
 
-      <ul className="navbar-list">
-        <li className="navbar-item">
-          <button className="navbar-link" href="#">
-            About me
-          </button>
-        </li>
-        <li className="navbar-item">
-          <button className="navbar-link" href="#">
-            Site
-          </button>
-        </li>
-      </ul>
-    </nav>
+        <ul className="navbar-list">
+          <li className="navbar-item">
+            <NavLink
+              className="navbar-link"
+              activeClassName="navbar-link: active"
+              to="/about"
+            >
+              About me
+            </NavLink>
+          </li>
+          <li className="navbar-item">
+            <NavLink
+              className="navbar-link"
+              activeClassName="navbar-link: active"
+              to="/site"
+            >
+              Site
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/site" element={<Site />} />
+      </Routes>
+    </>
   );
-};
+}
+
+export default Navbar;

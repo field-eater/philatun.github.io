@@ -19,7 +19,11 @@ export const MainPage = () => {
       <div className="container">
         <ul className="social-list">
           <li className="social-item">
-            <button className="social-link" href="#" target="_blank">
+            <button
+              className="social-link"
+              href="https://www.facebook.com/philemonzs"
+              target="_blank"
+            >
               <img
                 className="link-item"
                 src={require("./assets/img/facebook.png")}
