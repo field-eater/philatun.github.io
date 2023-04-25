@@ -23,6 +23,7 @@ export const MainPage = () => {
               className="social-link"
               href="https://www.facebook.com/philemonzs"
               target="_blank"
+              aria-label="link to Phil Atun's facebook"
             >
               <img
                 className="link-item"
@@ -36,6 +37,7 @@ export const MainPage = () => {
               className="social-link"
               href="https://github.com/field-eater"
               target="_blank"
+              aria-label="link to Phil Atun's github"
             >
               <img
                 className="link-item"
@@ -49,6 +51,7 @@ export const MainPage = () => {
               className="social-link"
               href="https://twitter.com/phil2N"
               target="_blank"
+              aria-label="link to Phil Atun's twitter"
             >
               <img
                 className="link-item"
