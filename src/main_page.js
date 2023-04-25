@@ -23,7 +23,7 @@ export const MainPage = () => {
               className="social-link"
               href="https://www.facebook.com/philemonzs"
               target="_blank"
-              aria-label="link to Phil Atun's facebook"
+              aria-label="link to Phil Atun's facebook" role="img"
             >
               <img
                 className="link-item"
