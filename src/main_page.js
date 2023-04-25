@@ -7,7 +7,7 @@ export const MainPage = () => {
         <div className="personal-info">
           <div className="avatar-body">
             <div className="avatar">
-              <span className="avatar-initial" aria-label="Brand logo: A capital k with a purple circle background">K</span>
+              <span className="avatar-initial" aria-labelledby="Brand logo: A capital k with a purple circle background">K</span>
             </div>
           </div>
           <p className="text name">Keisha A. Calzada</p>
